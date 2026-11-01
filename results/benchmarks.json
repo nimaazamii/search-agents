@@ -1,0 +1,62 @@
+{
+  "DATA": "synthetic grids (seeded) and 8-puzzle instances",
+  "weighted_40x40_grids_25pct_walls_totals_over_solvable_instances": {
+    "uniform-cost": {
+      "instances": 9,
+      "mean_cost": 101.33,
+      "mean_expanded": 1183.3
+    },
+    "A* (Manhattan)": {
+      "instances": 9,
+      "mean_cost": 101.33,
+      "mean_expanded": 821.9
+    },
+    "greedy (Manhattan)": {
+      "instances": 9,
+      "mean_cost": 153.33,
+      "mean_expanded": 120.9
+    }
+  },
+  "eight_puzzle": {
+    "optimal 14 moves": {
+      "BFS": {
+        "found": true,
+        "cost": 14.0,
+        "expanded": 3633,
+        "generated": 5961
+      },
+      "A* (misplaced tiles)": {
+        "found": true,
+        "cost": 14.0,
+        "expanded": 301,
+        "generated": 499
+      },
+      "A* (Manhattan)": {
+        "found": true,
+        "cost": 14.0,
+        "expanded": 76,
+        "generated": 128
+      }
+    },
+    "31 moves (hardest)": {
+      "BFS": {
+        "found": true,
+        "cost": 31.0,
+        "expanded": 181347,
+        "generated": 181439
+      },
+      "A* (misplaced tiles)": {
+        "found": true,
+        "cost": 31.0,
+        "expanded": 143839,
+        "generated": 162463
+      },
+      "A* (Manhattan)": {
+        "found": true,
+        "cost": 31.0,
+        "expanded": 20290,
+        "generated": 29757
+      }
+    }
+  }
+}
